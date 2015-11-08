@@ -6,6 +6,6 @@ The algorithms I use are:
 1. Graham Scan.
   - Also plotting each step of the algorithm.
   ![alt text][graham]
-  [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+  [graham]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 2. Jarvis March (Gift Wrapping):
   - Also plotting each step of the algorithm. (Needs some modifications...)
