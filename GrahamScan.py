@@ -38,7 +38,7 @@ def main():
 	except:
 		N = int(input("Introduce N: "))
 	
-	# By default we build a random set of points with coordinates in [0,300)x[0,300):
+	# By default we build a random set of N points with coordinates in [0,300)x[0,300):
 	P = [(np.random.randint(0,300),np.random.randint(0,300)) for i in range(N)]
 	L = GrahamScan(P)
 	P = np.array(P)
