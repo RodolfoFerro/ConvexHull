@@ -39,9 +39,12 @@ def main():
 		N = int(sys.argv[1])
 	except:
 		N = int(input("Introduce N: "))
-
+	
+	# By default we build a random set of N points with coordinates in [0,300)x[0,300):
 	P = np.array([(np.random.randint(0,300),np.random.randint(0,300)) for i in range(N)])
 	L = GiftWrapping(P)
+	
+	# Plot the computed Convex Hull:
 	plt.figure()
 	plt.plot(L[:,0],L[:,1], 'b-', picker=5)
 	plt.plot([L[-1,0],L[0,0]],[L[-1,1],L[0,1]], 'b-', picker=5)
