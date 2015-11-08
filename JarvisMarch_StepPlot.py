@@ -60,7 +60,7 @@ def main():
 	except:
 		N = int(input("Introduce N: "))
   
-  # By default we build a random set of N points with coordinates in [0,300)x[0,300):
+	# By default we build a random set of N points with coordinates in [0,300)x[0,300):
 	P = np.array([(np.random.randint(0,300),np.random.randint(0,300)) for i in range(N)])
 	L = GiftWrapping(P)
 	
@@ -72,4 +72,4 @@ def main():
 	plt.show()
 
 if __name__ == '__main__':
-  main()
+	main()
