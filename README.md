@@ -3,13 +3,13 @@ Here are some algorthms to compute the Convex Hull for a set of points in 2D usi
 
 Used algorithms:
 
-1. Graham Scan.
+**1. Graham Scan.**
   - Also plotting each step of the algorithm.
   
   ![alt text][graham]
   [graham]: https://cloud.githubusercontent.com/assets/8453749/11019405/6933d7de-85bd-11e5-873e-907e442df8de.gif
 
-2. Jarvis March (Gift Wrapping):
+**2. Jarvis March (Gift Wrapping):**
   - Also plotting each step of the algorithm. (Needs some modifications to plot the comparison with each point...)
   
   ![alt text][jarvis]
