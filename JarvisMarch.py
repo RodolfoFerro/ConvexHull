@@ -30,7 +30,7 @@ def GiftWrapping(S):
 		if endpoint[0] == P[0][0] and endpoint[1] == P[0][1]:
 			break
 	for i in range(n):
-		if P[-1] == None:
+		if P[-1] is None:
 			del P[-1]
 	return np.array(P)
 
